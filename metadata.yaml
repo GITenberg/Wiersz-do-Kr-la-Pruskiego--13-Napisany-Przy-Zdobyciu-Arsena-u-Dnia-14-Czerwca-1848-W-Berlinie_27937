@@ -1,0 +1,33 @@
+_repo: Wiersz-do-Kr-la-Pruskiego--13-Napisany-Przy-Zdobyciu-Arsena-u-Dnia-14-Czerwca-1848-W-Berlinie_27937
+_version: 0.1.0
+covers:
+- cover_type: generated
+  image_path: cover.png
+creator:
+  author:
+    agent_name: Anczyc, Wł. L. (Władysław Ludwik)
+    aliases:
+    - Anczyc, Wladyslaw Ludwik
+    - Goralczyk, Kazimierz
+    - Anczyc, Wl. L. (Wladyslaw Ludwik)
+    - Góralczyk, Kazimierz
+    birthdate: 1823
+    deathdate: 1883
+    gutenberg_agent_id: '33026'
+    url: http://www.gutenberg.org/2009/agents/33026
+    wikipedia: http://pl.wikipedia.org/wiki/W%C5%82adys%C5%82aw_Ludwik_Anczyc
+description: ''
+gutenberg_issued: '2009-01-30'
+gutenberg_type: Text
+identifiers:
+  gutenberg: '27937'
+language: pl
+publisher: Project Gutenberg
+rights: Public domain in the USA.
+rights_url: http://creativecommons.org/about/pdm
+subjects:
+- !lcsh 'Poetry'
+- !lcc 'PG'
+title: "Wiersz do Króla Pruskiego\r\nNapisany Przy Zdobyciu Arsenału Dnia 14 Czerwca\
+  \ 1848 W Berlinie"
+url: http://www.gutenberg.org/ebooks/27937
