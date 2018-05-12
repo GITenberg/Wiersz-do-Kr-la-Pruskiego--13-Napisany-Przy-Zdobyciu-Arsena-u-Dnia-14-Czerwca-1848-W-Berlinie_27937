@@ -17,6 +17,8 @@ creator:
     url: http://www.gutenberg.org/2009/agents/33026
     wikipedia: http://pl.wikipedia.org/wiki/W%C5%82adys%C5%82aw_Ludwik_Anczyc
 description: ''
+edition_identifiers:
+  edition_id: http://www.gutenberg.org/ebooks/27937#Wiersz-do-Kr-la-Pruskiego--13-Napisany-Przy-Zdobyciu-Arsena-u-Dnia-14-Czerwca-1848-W-Berlinie
 gutenberg_issued: '2009-01-30'
 gutenberg_type: Text
 identifiers:
