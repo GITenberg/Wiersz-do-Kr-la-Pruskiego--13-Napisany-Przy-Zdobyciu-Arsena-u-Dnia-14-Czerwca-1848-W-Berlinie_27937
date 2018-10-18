@@ -1,160 +1,189 @@
 <?xml version="1.0" encoding="utf-8"?>
 <rdf:RDF xml:base="http://www.gutenberg.org/"
-  xmlns:cc="http://web.resource.org/cc/"
   xmlns:dcterms="http://purl.org/dc/terms/"
+  xmlns:cc="http://web.resource.org/cc/"
   xmlns:dcam="http://purl.org/dc/dcam/"
   xmlns:pgterms="http://www.gutenberg.org/2009/pgterms/"
   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+  xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
 >
   <pgterms:ebook rdf:about="ebooks/27937">
-    <pgterms:downloads rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">16</pgterms:downloads>
-    <dcterms:creator>
-      <pgterms:agent rdf:about="2009/agents/33026">
-        <pgterms:alias>Anczyc, Wl. L. (Wladyslaw Ludwik)</pgterms:alias>
-        <pgterms:alias>Góralczyk, Kazimierz</pgterms:alias>
-        <pgterms:birthdate rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1823</pgterms:birthdate>
-        <pgterms:deathdate rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1883</pgterms:deathdate>
-        <pgterms:webpage rdf:resource="http://pl.wikipedia.org/wiki/W%C5%82adys%C5%82aw_Ludwik_Anczyc"/>
-        <pgterms:alias>Anczyc, Wladyslaw Ludwik</pgterms:alias>
-        <pgterms:alias>Goralczyk, Kazimierz</pgterms:alias>
-        <pgterms:name>Anczyc, Wł. L. (Władysław Ludwik)</pgterms:name>
-      </pgterms:agent>
-    </dcterms:creator>
-    <dcterms:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2009-01-30</dcterms:issued>
-    <dcterms:title>Wiersz do Króla Pruskiego&#13;
-Napisany Przy Zdobyciu Arsenału Dnia 14 Czerwca 1848 W Berlinie</dcterms:title>
-    <dcterms:hasFormat>
-      <pgterms:file rdf:about="http://www.gutenberg.org/ebooks/27937.plucker">
-        <dcterms:isFormatOf rdf:resource="ebooks/27937"/>
-        <dcterms:format>
-          <rdf:Description rdf:nodeID="N81213ae4745c473fbcf981281cdd23ff">
-            <dcam:memberOf rdf:resource="http://purl.org/dc/terms/IMT"/>
-            <rdf:value rdf:datatype="http://purl.org/dc/terms/IMT">application/prs.plucker</rdf:value>
-          </rdf:Description>
-        </dcterms:format>
-        <dcterms:extent rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">12833</dcterms:extent>
-        <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2010-02-19T12:47:37.542049</dcterms:modified>
-      </pgterms:file>
-    </dcterms:hasFormat>
-    <dcterms:license rdf:resource="license"/>
-    <dcterms:hasFormat>
-      <pgterms:file rdf:about="http://www.gutenberg.org/files/27937/27937-0.txt">
-        <dcterms:extent rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">22961</dcterms:extent>
-        <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2009-01-30T08:31:48</dcterms:modified>
-        <dcterms:isFormatOf rdf:resource="ebooks/27937"/>
-        <dcterms:format>
-          <rdf:Description rdf:nodeID="Na8d1c44213724388b332fdd7761fced2">
-            <dcam:memberOf rdf:resource="http://purl.org/dc/terms/IMT"/>
-            <rdf:value rdf:datatype="http://purl.org/dc/terms/IMT">text/plain; charset=utf-8</rdf:value>
-          </rdf:Description>
-        </dcterms:format>
-      </pgterms:file>
-    </dcterms:hasFormat>
-    <dcterms:rights>Public domain in the USA.</dcterms:rights>
-    <dcterms:hasFormat>
-      <pgterms:file rdf:about="http://www.gutenberg.org/ebooks/27937.epub.noimages">
-        <dcterms:format>
-          <rdf:Description rdf:nodeID="N00de7962f3ef42bfa8a46b99f26b02a2">
-            <rdf:value rdf:datatype="http://purl.org/dc/terms/IMT">application/epub+zip</rdf:value>
-            <dcam:memberOf rdf:resource="http://purl.org/dc/terms/IMT"/>
-          </rdf:Description>
-        </dcterms:format>
-        <dcterms:isFormatOf rdf:resource="ebooks/27937"/>
-        <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2010-02-17T06:05:03.102994</dcterms:modified>
-        <dcterms:extent rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">27995</dcterms:extent>
-      </pgterms:file>
-    </dcterms:hasFormat>
-    <dcterms:language>
-      <rdf:Description rdf:nodeID="N01c6d97ac6694bdb811a306a66964f12">
-        <rdf:value rdf:datatype="http://purl.org/dc/terms/RFC4646">pl</rdf:value>
-      </rdf:Description>
-    </dcterms:language>
     <dcterms:hasFormat>
       <pgterms:file rdf:about="http://www.gutenberg.org/files/27937/27937-h.zip">
         <dcterms:format>
-          <rdf:Description rdf:nodeID="Nca5deb908055422c87c76368adde465e">
-            <dcam:memberOf rdf:resource="http://purl.org/dc/terms/IMT"/>
-            <rdf:value rdf:datatype="http://purl.org/dc/terms/IMT">text/html; charset=utf-8</rdf:value>
-          </rdf:Description>
-        </dcterms:format>
-        <dcterms:format>
-          <rdf:Description rdf:nodeID="N14dcb5db35b84b2babbda3bc2736343e">
-            <dcam:memberOf rdf:resource="http://purl.org/dc/terms/IMT"/>
+          <rdf:Description rdf:nodeID="N995224e7d3284bdab4732a4286a98852">
             <rdf:value rdf:datatype="http://purl.org/dc/terms/IMT">application/zip</rdf:value>
+            <dcam:memberOf rdf:resource="http://purl.org/dc/terms/IMT"/>
           </rdf:Description>
         </dcterms:format>
         <dcterms:extent rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">9601</dcterms:extent>
         <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2009-01-30T08:31:54</dcterms:modified>
         <dcterms:isFormatOf rdf:resource="ebooks/27937"/>
-      </pgterms:file>
-    </dcterms:hasFormat>
-    <dcterms:publisher>Project Gutenberg</dcterms:publisher>
-    <dcterms:hasFormat>
-      <pgterms:file rdf:about="http://www.gutenberg.org/files/27937/27937-h/27937-h.htm">
         <dcterms:format>
-          <rdf:Description rdf:nodeID="Nc1f46ed621fd4f539e247d9203784449">
+          <rdf:Description rdf:nodeID="N9f401a449ea448eb90e3a990db9805db">
             <dcam:memberOf rdf:resource="http://purl.org/dc/terms/IMT"/>
             <rdf:value rdf:datatype="http://purl.org/dc/terms/IMT">text/html; charset=utf-8</rdf:value>
           </rdf:Description>
         </dcterms:format>
-        <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2009-01-30T08:31:52</dcterms:modified>
+      </pgterms:file>
+    </dcterms:hasFormat>
+    <pgterms:downloads rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">23</pgterms:downloads>
+    <dcterms:hasFormat>
+      <pgterms:file rdf:about="http://www.gutenberg.org/files/27937/27937-0.zip">
         <dcterms:isFormatOf rdf:resource="ebooks/27937"/>
-        <dcterms:extent rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">25870</dcterms:extent>
+        <dcterms:format>
+          <rdf:Description rdf:nodeID="N483eae3722d345359b594002ad6e763c">
+            <rdf:value rdf:datatype="http://purl.org/dc/terms/IMT">text/plain; charset=utf-8</rdf:value>
+            <dcam:memberOf rdf:resource="http://purl.org/dc/terms/IMT"/>
+          </rdf:Description>
+        </dcterms:format>
+        <dcterms:extent rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">8855</dcterms:extent>
+        <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2009-01-30T08:31:52</dcterms:modified>
+        <dcterms:format>
+          <rdf:Description rdf:nodeID="N1a92fe84ab444661ac6a1b168b67d113">
+            <dcam:memberOf rdf:resource="http://purl.org/dc/terms/IMT"/>
+            <rdf:value rdf:datatype="http://purl.org/dc/terms/IMT">application/zip</rdf:value>
+          </rdf:Description>
+        </dcterms:format>
       </pgterms:file>
     </dcterms:hasFormat>
     <dcterms:type>
-      <rdf:Description rdf:nodeID="Nfec2123d3e9949a5ac19c9c17feecacd">
+      <rdf:Description rdf:nodeID="Na8d5e40e14c342ec9ab87a98b2cc3f3c">
         <rdf:value>Text</rdf:value>
         <dcam:memberOf rdf:resource="http://purl.org/dc/terms/DCMIType"/>
       </rdf:Description>
     </dcterms:type>
+    <dcterms:subject>
+      <rdf:Description rdf:nodeID="N74e26abe084243428f661cc213e1e3bd">
+        <dcam:memberOf rdf:resource="http://purl.org/dc/terms/LCC"/>
+        <rdf:value>PG</rdf:value>
+      </rdf:Description>
+    </dcterms:subject>
     <dcterms:hasFormat>
       <pgterms:file rdf:about="http://www.gutenberg.org/ebooks/27937.kindle.noimages">
-        <dcterms:extent rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">42796</dcterms:extent>
         <dcterms:isFormatOf rdf:resource="ebooks/27937"/>
-        <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2010-02-17T06:05:03.760344</dcterms:modified>
+        <dcterms:extent rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">67325</dcterms:extent>
+        <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2018-09-14T02:20:14.250736</dcterms:modified>
         <dcterms:format>
-          <rdf:Description rdf:nodeID="N211c9dd23046431985ae070cd491686c">
+          <rdf:Description rdf:nodeID="N46e2195cb682474dab8dc6726770fddd">
             <rdf:value rdf:datatype="http://purl.org/dc/terms/IMT">application/x-mobipocket-ebook</rdf:value>
             <dcam:memberOf rdf:resource="http://purl.org/dc/terms/IMT"/>
           </rdf:Description>
         </dcterms:format>
       </pgterms:file>
     </dcterms:hasFormat>
+    <dcterms:language>
+      <rdf:Description rdf:nodeID="Nec724609f72b47dd8dcd8edac404c7e8">
+        <rdf:value rdf:datatype="http://purl.org/dc/terms/RFC4646">pl</rdf:value>
+      </rdf:Description>
+    </dcterms:language>
+    <dcterms:license rdf:resource="license"/>
     <dcterms:hasFormat>
-      <pgterms:file rdf:about="http://www.gutenberg.org/files/27937/27937-0.zip">
+      <pgterms:file rdf:about="http://www.gutenberg.org/ebooks/27937.kindle.images">
+        <dcterms:isFormatOf rdf:resource="ebooks/27937"/>
+        <dcterms:extent rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">67333</dcterms:extent>
+        <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2018-09-14T02:20:14.110723</dcterms:modified>
         <dcterms:format>
-          <rdf:Description rdf:nodeID="Nd1d64263031d418384c5563875264df3">
-            <rdf:value rdf:datatype="http://purl.org/dc/terms/IMT">application/zip</rdf:value>
+          <rdf:Description rdf:nodeID="N92e56c0ad2a248188be34db0b6aa40f1">
+            <dcam:memberOf rdf:resource="http://purl.org/dc/terms/IMT"/>
+            <rdf:value rdf:datatype="http://purl.org/dc/terms/IMT">application/x-mobipocket-ebook</rdf:value>
+          </rdf:Description>
+        </dcterms:format>
+      </pgterms:file>
+    </dcterms:hasFormat>
+    <dcterms:hasFormat>
+      <pgterms:file rdf:about="http://www.gutenberg.org/ebooks/27937.epub.noimages">
+        <dcterms:isFormatOf rdf:resource="ebooks/27937"/>
+        <dcterms:extent rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">12525</dcterms:extent>
+        <dcterms:format>
+          <rdf:Description rdf:nodeID="Nc31e627afa064844b8586e674c3e8b2e">
+            <rdf:value rdf:datatype="http://purl.org/dc/terms/IMT">application/epub+zip</rdf:value>
             <dcam:memberOf rdf:resource="http://purl.org/dc/terms/IMT"/>
           </rdf:Description>
         </dcterms:format>
-        <dcterms:extent rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">8855</dcterms:extent>
+        <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2018-09-14T02:20:13.971731</dcterms:modified>
+      </pgterms:file>
+    </dcterms:hasFormat>
+    <dcterms:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2009-01-30</dcterms:issued>
+    <dcterms:title>Wiersz do Króla Pruskiego&#13;
+Napisany Przy Zdobyciu Arsenału Dnia 14 Czerwca 1848 W Berlinie</dcterms:title>
+    <dcterms:publisher>Project Gutenberg</dcterms:publisher>
+    <dcterms:hasFormat>
+      <pgterms:file rdf:about="http://www.gutenberg.org/ebooks/27937.epub.images">
+        <dcterms:isFormatOf rdf:resource="ebooks/27937"/>
+        <dcterms:extent rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">12525</dcterms:extent>
         <dcterms:format>
-          <rdf:Description rdf:nodeID="Na1cf9bf33e9f4f2e92cec4992d1e0392">
+          <rdf:Description rdf:nodeID="Ne3c4990f22d642a0801d32d6dc5e30e9">
+            <rdf:value rdf:datatype="http://purl.org/dc/terms/IMT">application/epub+zip</rdf:value>
             <dcam:memberOf rdf:resource="http://purl.org/dc/terms/IMT"/>
-            <rdf:value rdf:datatype="http://purl.org/dc/terms/IMT">text/plain; charset=utf-8</rdf:value>
           </rdf:Description>
         </dcterms:format>
+        <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2018-09-14T02:20:13.905719</dcterms:modified>
+      </pgterms:file>
+    </dcterms:hasFormat>
+    <dcterms:hasFormat>
+      <pgterms:file rdf:about="http://www.gutenberg.org/files/27937/27937-h/27937-h.htm">
         <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2009-01-30T08:31:52</dcterms:modified>
+        <dcterms:extent rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">25870</dcterms:extent>
+        <dcterms:isFormatOf rdf:resource="ebooks/27937"/>
+        <dcterms:format>
+          <rdf:Description rdf:nodeID="N58c473979fef4361ae1c44915096946e">
+            <dcam:memberOf rdf:resource="http://purl.org/dc/terms/IMT"/>
+            <rdf:value rdf:datatype="http://purl.org/dc/terms/IMT">text/html; charset=utf-8</rdf:value>
+          </rdf:Description>
+        </dcterms:format>
+      </pgterms:file>
+    </dcterms:hasFormat>
+    <dcterms:rights>Public domain in the USA.</dcterms:rights>
+    <dcterms:hasFormat>
+      <pgterms:file rdf:about="http://www.gutenberg.org/files/27937/27937-0.txt">
+        <dcterms:format>
+          <rdf:Description rdf:nodeID="N47bb214d773c49aba9fd8535879ab7e3">
+            <rdf:value rdf:datatype="http://purl.org/dc/terms/IMT">text/plain; charset=utf-8</rdf:value>
+            <dcam:memberOf rdf:resource="http://purl.org/dc/terms/IMT"/>
+          </rdf:Description>
+        </dcterms:format>
+        <dcterms:extent rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">22961</dcterms:extent>
+        <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2009-01-30T08:31:48</dcterms:modified>
         <dcterms:isFormatOf rdf:resource="ebooks/27937"/>
       </pgterms:file>
     </dcterms:hasFormat>
+    <dcterms:creator>
+      <pgterms:agent rdf:about="2009/agents/33026">
+        <pgterms:alias>Anczyc, Wladyslaw Ludwik</pgterms:alias>
+        <pgterms:name>Anczyc, Wł. L. (Władysław Ludwik)</pgterms:name>
+        <pgterms:webpage rdf:resource="http://pl.wikipedia.org/wiki/W%C5%82adys%C5%82aw_Ludwik_Anczyc"/>
+        <pgterms:alias>Góralczyk, Kazimierz</pgterms:alias>
+        <pgterms:deathdate rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1883</pgterms:deathdate>
+        <pgterms:alias>Anczyc, Wl. L. (Wladyslaw Ludwik)</pgterms:alias>
+        <pgterms:birthdate rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1823</pgterms:birthdate>
+        <pgterms:alias>Goralczyk, Kazimierz</pgterms:alias>
+      </pgterms:agent>
+    </dcterms:creator>
     <dcterms:subject>
-      <rdf:Description rdf:nodeID="N865e86a3323c466b87c32ced7de4217f">
-        <rdf:value>PG</rdf:value>
-        <dcam:memberOf rdf:resource="http://purl.org/dc/terms/LCC"/>
-      </rdf:Description>
-    </dcterms:subject>
-    <dcterms:subject>
-      <rdf:Description rdf:nodeID="N4c08122ced2e4d74906b6135cf3cb4e5">
-        <dcam:memberOf rdf:resource="http://purl.org/dc/terms/LCSH"/>
+      <rdf:Description rdf:nodeID="N35c09fe5908d44ce9c77946cf1c35d20">
         <rdf:value>Poetry</rdf:value>
+        <dcam:memberOf rdf:resource="http://purl.org/dc/terms/LCSH"/>
       </rdf:Description>
     </dcterms:subject>
+    <dcterms:hasFormat>
+      <pgterms:file rdf:about="http://www.gutenberg.org/ebooks/27937.rdf">
+        <dcterms:format>
+          <rdf:Description rdf:nodeID="N0b6fe74e6e064b24b6b2994bb06fcf80">
+            <dcam:memberOf rdf:resource="http://purl.org/dc/terms/IMT"/>
+            <rdf:value rdf:datatype="http://purl.org/dc/terms/IMT">application/rdf+xml</rdf:value>
+          </rdf:Description>
+        </dcterms:format>
+        <dcterms:isFormatOf rdf:resource="ebooks/27937"/>
+        <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2018-09-14T02:20:14.328716</dcterms:modified>
+        <dcterms:extent rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">10802</dcterms:extent>
+      </pgterms:file>
+    </dcterms:hasFormat>
   </pgterms:ebook>
   <cc:Work rdf:about="">
-    <cc:license rdf:resource="http://www.gnu.org/licenses/gpl.html"/>
+    <cc:license rdf:resource="https://creativecommons.org/publicdomain/zero/1.0/"/>
+    <rdfs:comment>Archives containing the RDF files for *all* our books can be downloaded at
+            http://www.gutenberg.org/wiki/Gutenberg:Feeds#The_Complete_Project_Gutenberg_Catalog</rdfs:comment>
   </cc:Work>
   <rdf:Description rdf:about="http://pl.wikipedia.org/wiki/W%C5%82adys%C5%82aw_Ludwik_Anczyc">
     <dcterms:description>pl.wikipedia</dcterms:description>
